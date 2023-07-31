@@ -27,9 +27,9 @@ const Home = () => {
 
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className="head-text">
+              <h1 className="text-7xl font-bold xl:text-9xl">
                 DEW 
-                <br className="xl:block hidden" /> 
+                <br className="block " /> 
                 FIT.
               </h1>
             </motion.div>
@@ -37,7 +37,7 @@ const Home = () => {
               {...headContentAnimation}
               className="flex flex-col gap-5"
             >
-              <p className="max-w-md font-normal text-gray-600 text-base">
+              <p className=" max-w-fit font-normal text-gray-600 text-sm xl:max-w-md xl:text-base">
               Create your unique and exclusive shirt with our brand-new 3D customization tool. <strong>Unleash your imagination</strong>{" "} and define your own style.
               </p>
 
