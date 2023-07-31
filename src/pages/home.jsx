@@ -30,7 +30,7 @@ const Home = () => {
               <h1 className="head-text">
                 DEW 
                 <br className="xl:block hidden" /> 
-                WEAR.
+                FIT.
               </h1>
             </motion.div>
             <motion.div
